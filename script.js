@@ -53,7 +53,21 @@ const app = {
       path: "./songs/song4.mp3",
       image:
         "https://a10.gaanacdn.com/images/song/39/24225939/crop_480x480_1536749130.jpg"
-    }
+    },
+    {
+      name: "When i was your man",
+      singer: "Bruno Mars",
+      path:
+        "./songs/song5.mp3",
+      image: "./img/song5.jpg"
+    },
+    {
+      name: "See you again",
+      singer: "Charlie Puth - Wiz Khalifa",
+      path:
+        "./songs/song6.mp3",
+      image: "./img/song6.jpg"
+    },
   ],
   setConfig: function (key, value) {
     this.config[key] = value;
