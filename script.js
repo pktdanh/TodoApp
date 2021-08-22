@@ -68,6 +68,20 @@ const app = {
         "./songs/song6.mp3",
       image: "./img/song6.jpg"
     },
+    {
+      name: "Leave the door open",
+      singer: "Bruno Mars, Anderson .Paak, Silk Sonic",
+      path:
+        "./songs/song7.mp3",
+      image: "./img/song7.jpg"
+    },
+    {
+      name: "Still with you",
+      singer: "Jungkook",
+      path:
+        "./songs/song8.mp3",
+      image: "./img/song8.jpg"
+    }
   ],
   setConfig: function (key, value) {
     this.config[key] = value;
